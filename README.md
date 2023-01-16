@@ -1,5 +1,7 @@
 ### Computer system architecture :computer: 
 # Recursive Backtracking generating minimum lexicographic permutations
+
+###### The language used is Assembly x86 AT&T syntax.
 **Assignment**: 
 
 Given n, m, and 3n elements that can be either 0 or between 1 and n, where 1 ≤ n, m ≤ 30, generate the smallest permutation in lexicographic order from the set {1, ..., n} such that each element appears exactly 3 times and has a minimum distance of m elements between any two equal elements, starting from certain fixed points already specified.
