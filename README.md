@@ -2,10 +2,9 @@
 # Recursive Backtracking generating minimum lexicographic permutations
 **Assignment**: 
 
-Given n, m and 3 · n elements that can be either 0 or between 1 and n, where 1 ≤ n, m ≤ 30, generate the smallest permutation in the lexicographic order of the set {1, ..., n}, where each element appears exactly 3 times, having a minimum distance of m elements between any two equal elements, starting from certain fixed points already specified.
+Given n, m, and 3n elements that can be either 0 or between 1 and n, where 1 ≤ n, m ≤ 30, generate the smallest permutation in lexicographic order from the set {1, ..., n} such that each element appears exactly 3 times and has a minimum distance of m elements between any two equal elements, starting from certain fixed points already specified.
 
-It is requested to be displayed in the standard output the permutation or -1, in case it doesn't exist any permutation that satisfy all the conditions.
-
+It is required to display the permutation in the standard output or -1 if no permutation satisfying all the conditions exists.
 _Example:_
 
 > _Input_
